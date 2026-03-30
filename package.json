@@ -1,0 +1,29 @@
+{
+  "name": "sidom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui" : "npx playwright test --ui",
+    "test:run" : "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianarciniegas97/sidom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/christianarciniegas97/sidom/issues"
+  },
+  "homepage": "https://github.com/christianarciniegas97/sidom#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
